@@ -1,5 +1,7 @@
 # Ex02-Outlier
 
+## AIM
+
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
 
 (1) Remove outliers using IQR 
@@ -15,6 +17,7 @@ You are given bhp.csv which contains property prices in the city of banglore, In
     (ii) Using IQR, detect height outliers and print them
     
 ## ALGORITHM:
+
 # STEP 1
 Read the given Data.
 
@@ -106,7 +109,7 @@ print(newdata_weight)
 sns.boxplot(x='weight',data=newdata_weight)
 ```
 ## OUTPUT:
-bhp.csv IQR METHOD
+# bhp.csv
 
 ## df.head()
 ![image](https://user-images.githubusercontent.com/113497104/227721872-2a3fd2fa-4fce-4e7d-8e45-0eea1a9af2ee.png)
